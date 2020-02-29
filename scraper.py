@@ -23,7 +23,7 @@ url = 'https://www.livegametracker.com/monopoly/?period=month?dealer&dealer=%s'%
 
 ## Open browser
 
-browser = webdriver.Chrome('./driver/chromedriver.exe')
+browser = webdriver.Chrome('./driver/chromedriver')
 browser.maximize_window()
 browser.get(url)
 ## Test purpose
